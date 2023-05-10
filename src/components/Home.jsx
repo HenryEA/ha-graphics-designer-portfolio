@@ -2,6 +2,8 @@ import React from "react";
 import DesignerImage from "../PORTFOLIO/pic.jpg"
 import {HiArrowRight} from "react-icons/hi";
 import {Link} from "react-scroll";
+import {TypeAnimation} from "react-type-animation";
+import { motion } from "framer-motion";
 
 
 
@@ -12,7 +14,17 @@ const Home = () => {
     <div className=" max-w-screen-lg h-auto mx-auto flex flex-col items-center align-center justify-center px-4 md:flex-row md:justify-center md:pt-20 md:mt-20 sm:flex-col sm:h-auto lg:pt-20" >
          <div className="flex flex-col h-full md:pt-10 md:pl-10 ml-5">
             <h2 className="w-full text-4xl sm:text-6xl pt-20 mt-5 font-bold  text-white md:pt-0 ">
-            GRAPHICS DESIGNER
+           <TypeAnimation
+           sequence = {[
+            'GRAPHICS DESIGNER',
+            2000,
+           ]}
+           speed={2}
+           wrapper="span"
+           cursor={true}
+           repeat={Infinity}
+            
+            />
             </h2>
             <p className="text-gray-300 py-1 max-w-md">
             I have 4 years of experience in creating various
