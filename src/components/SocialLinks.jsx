@@ -10,7 +10,7 @@ const links = [
         child: (
             <>LinkedIn <FaLinkedin size={30}/></>
         ),
-        href: 'https:linkedin.com',
+        href: 'https:linkedin.com/in/henry-anene-89059b255',
         style: 'rounded-tr-md'
     },
     {
